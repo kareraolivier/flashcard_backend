@@ -1,6 +1,6 @@
 import { gql } from 'apollo-server'
-import { DateTimeResolver } from 'graphql-scalars'
 import { Context } from './context'
+
 
 
 export const typeDefs = gql`

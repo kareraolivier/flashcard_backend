@@ -1,6 +1,7 @@
 import { ApolloServer } from 'apollo-server'
 import { resolvers, typeDefs } from './schema'
 import { context } from './context'
+// import * as type from './resorvers'
 
 new ApolloServer({ resolvers, typeDefs, context: context }).listen(
   { port: 4000 },
